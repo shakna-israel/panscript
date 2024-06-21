@@ -8,7 +8,7 @@ Panscript is a simple script file, or wrapper, around [`pandoc`](https://pandoc.
 
 This makes it extremely flexible, and should make combining various systems together easier for the programmer.
 
-Other more mature alternatives in this realm would be [RMarkdown](https://rmarkdown.rstudio.com/), [WEB](https://www-cs-faculty.stanford.edu/~knuth/cweb.html), and [noweb](https://www.cs.tufts.edu/~nr/noweb/). One of my own previous would be the terrible [Docubuilder](https://github.com/shakna-israel/docbuilder).
+Other more mature alternatives in this realm would be [RMarkdown](https://rmarkdown.rstudio.com/), [WEB](https://www-cs-faculty.stanford.edu/~knuth/cweb.html), and [noweb](https://www.cs.tufts.edu/~nr/noweb/). One of my own previous would be the terrible [Docbuilder](https://github.com/shakna-israel/docbuilder).
 
 ---
 
