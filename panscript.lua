@@ -31,7 +31,6 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABI
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.***
   ]==]
-  print(l)
   return l
 end
 
@@ -43,10 +42,10 @@ if next(arg or {}) ~= nil then
   local argif = " "
   for idx, v in ipairs(arg) do
     if v == '--license' then
-      return license()
+      return print(license())
     end
     if v == '--version' then
-      return version()
+      return print(version())
     end
 
     argif = argif .. " " .. string.format('%q', v)
